@@ -2,11 +2,11 @@
   "name": "stumble-guys-tournament-backbone",
   "version": "1.0.0",
   "description": "Backbone de torneios para Stumble Guys v0.56 com bot do Discord e API Web",
-  "main": "dist/server.js",
+  "main": "server.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
-    "dev:server": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "start": "npm stat",
+    "dev:server": "ts-node-dev --respawn --transpile-only server.ts",
     "dev:bot": "ts-node-dev --respawn --transpile-only src/bot.ts",
     "start:all": "concurrently \"npm run dev:server\" \"npm run dev:bot\""
   },
